@@ -1,9 +1,14 @@
-import './App.css'
+import './App.css';
+import NavBar from './components/Navbar';
+import Home from './components/Home';
+import Services from './components/Service';
 
 function App() {
   return (
     <>
-      <h1>Hello there</h1>
+      <NavBar/>
+      <Home/>
+      <Services/>
     </>
   )
 }
