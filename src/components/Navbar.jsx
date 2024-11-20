@@ -29,9 +29,8 @@ const NavBar = ()=>{
     const navItems = [
         {link:"Home", path:"home"},
         {link:"Security", path:"security"},
-        {link:"Videos", path:"videos"},
         {link:"Confort", path:"confort"},
-        {link:"Automatisation", path:"automatisation"},
+        {link:"Control", path:"automatisation"},
         {link:"System", path:"system"},
     ]
     

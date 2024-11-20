@@ -1,26 +1,31 @@
 /* eslint-disable no-irregular-whitespace */
 import React from "react";
+import company1 from "/src/assets/logos/company1.png";
+import company2 from "/src/assets/logos/company2.png";
+import company3 from "/src/assets/logos/company3.png";
+import company4 from "/src/assets/logos/company4.png";
+import company5 from "/src/assets/logos/company5.png";
 
 const Services = () =>{
     const services = [
         {
             id: 1, 
-            title: "Ok Google", 
-            descrition: "Le système vocal intégré aux appareils Google, comme Google Nest et Android. Il offre des commandes vocales rapides pour contrôler vos appareils connectés, effectuer des recherches, ou planifier votre journée. Dites simplement 'Ok Google' pour commencer.", 
-            image:"/src/assets/vocal_controller/microphone.png"
+            title: "Commandes par SMS", 
+            descrition: "Contrôlez vos appareils via des messages courts. Une solution simple et fiable, accessible même sans connexion Internet.", 
+            image:"/src/assets/vocal_controller/mesage.png"
         }, 
         {
             id: 2, 
-            title: "Amazon Alexa", 
-            descrition: "La technologie vocale avancée d'Amazon, présente dans les appareils Echo et compatible avec de nombreux objets connectés. Alexa vous permet de gérer vos tâches, contrôler vos appareils domestiques et même faire vos achats en ligne, tout cela en utilisant votre voix.", 
+            title: "Commandes Vocales Personnalisées", 
+            descrition: "Créez des commandes sur mesure adaptées à votre mode de vie. Gérez vos appareils connectés de façon intuitive et naturelle pour un confort optimal.", 
             image:"/src/assets/vocal_controller/voice-assistant.png"
         },
-        {
+        /*{
             id: 3, 
             title: "Google Assistant", 
             descrition: "Un assistant intelligent conçu pour vous aider à rester organisé et connecté. Disponible sur divers appareils, Google Assistant peut répondre à vos questions, contrôler vos appareils IoT et rendre votre quotidien plus simple grâce à ses fonctionnalités intuitives.", 
             image:"/src/assets/vocal_controller/google-assistant.png"
-        }
+        }*/
     ]
     return (
         <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="automatisation">
@@ -30,25 +35,25 @@ const Services = () =>{
 
                 {/* company logo */}
                 <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-                    <img src="/src/assets/logos/company1.png" alt="" className="w-24"/>
-                    <img src="/src/assets/logos/company2.png" alt="" className="w-24"/>
-                    <img src="/src/assets/logos/company3.png" alt="" className="w-24"/>
-                    <img src="/src/assets/logos/company4.png" alt="" className="w-24"/>
-                    <img src="/src/assets/logos/company5.png" alt="" className="w-24"/>
+                    <img src={company1} alt="" className="w-24"/>
+                    <img src={company2} alt="" className="w-24"/>
+                    <img src={company3} alt="" className="w-24"/>
+                    <img src={company4} alt="" className="w-24"/>
+                    <img src={company5} alt="" className="w-24"/>
                 </div>
             </div>
 
             {/* services cards */}
             <div className="mt-20 md:w-1/2 mx-auto text-center">
-                <h2 className="text-4xl text-neutralDGrey font-semibold mb-3">Pilotage vocal des systèmes IoT
+                <h2 className="text-4xl text-neutralDGrey font-semibold mb-3">Pilotage vocal et sms des systèmes IoT
                 </h2>
                 <p className="text-neutralGrey">
-                Prenez le contrôle de vos appareils connectés sans lever le petit doigt grâce à des assistants vocaux innovants. Que ce soit avec Ok Google, Amazon Alexa, ou Google Assistant, nos solutions IoT s’intègrent parfaitement pour vous offrir une expérience fluide, pratique et entièrement personnalisée. Parlez, et laissez la technologie faire le reste !
+                Nos systèmes connectés offrent une flexibilité maximale avec des commandes personnalisées. Choisissez entre la simplicité des commandes vocales et la fiabilité des commandes par SMS pour garder le contrôle, où que vous soyez.
                 </p>
             </div>
 
             {/* cards */}
-            <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
+            <div className='mt-14 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
                 {
                     services.map(service => 
                         <div key={service.id} className="px-4 py-8 text-center md:w-[350px]
