@@ -21,7 +21,7 @@ const Home= () =>{
                             <p className='text-neutralGrey text-base mb-8'>
                                 Des solutions connectées qui simplifient la vie et boostent votre productivité. Découvrez un avenir intelligent.
                             </p>
-                            <button className='btn-primary'>Contacte nous</button>
+                            <button className='btn-primary'>Contactez nous</button>
                         </div>
                     </div>
                     <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center h-full justify-between 
@@ -34,7 +34,7 @@ const Home= () =>{
                             <span className='text-brandPrimary leading-snug'> à vos besoins</span></h1>
                             <p className='text-neutralGrey text-base mb-8'> Gestion à distance, automatisation, sécurité renforcée. Nos technologies IoT offrent tout cela et bien plus.
                             </p>
-                            <button className='btn-primary'>Contacte nous</button>
+                            <button className='btn-primary'>Contactez nous</button>
                         </div>
                     </div>
                     <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center h-full justify-between
@@ -47,7 +47,7 @@ const Home= () =>{
                             <span className='text-brandPrimary leading-snug'> au cœur de nos produits</span></h1>
                             <p className='text-neutralGrey text-base mb-8'> Nous combinons expertise technique et design moderne pour des solutions sur mesure
                             </p>
-                            <button className='btn-primary'>Contacte nous</button>
+                            <button className='btn-primary'>Contactez nous</button>
                         </div>
                     </div>
                 </Carousel>

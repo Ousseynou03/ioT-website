@@ -31,7 +31,7 @@ const NavBar = ()=>{
         {link:"Security", path:"security"},
         {link:"Confort", path:"confort"},
         {link:"Control", path:"automatisation"},
-        {link:"System", path:"system"},
+        {link:"Devis Personnalisé", path:"devis"},
     ]
     
     return(
